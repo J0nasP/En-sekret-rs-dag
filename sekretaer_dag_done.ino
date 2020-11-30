@@ -19,7 +19,7 @@ void setup()
 
 void loop()
 {   
-  /* klokken 7 */
+    /* klokken 7 */
   digitalWrite(green, HIGH);
   digitalWrite(red, LOW);
   digitalWrite(yellow1, HIGH);
