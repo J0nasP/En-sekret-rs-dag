@@ -29,9 +29,7 @@ void loop()
 
 
 /*klokken 11:30 */
-    digitalWrite(blue, HIGH);
-    digitalWrite(white, LOW);
-    delay(1000);
+
 
 /*klokken 12:30 */
 
