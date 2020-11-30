@@ -19,27 +19,26 @@ void setup()
 
 void loop()
 {
-    /* klokken 7 */
-    {
+/* klokken 7 */
 
 
-    }
-    /*klokken 8 */
-    {
 
-    }
-    /*klokken 11:30 */
-    {
-        digitalWrite(blue, HIGH);
-        digitalWrite(white, LOW);
-      	delay(1000);
-    }
-    /*klokken 12:30 */
-    {
 
-    }
-    /*klokken 15 */
-    {
+ /*klokken 8 */
 
-    }
+
+
+/*klokken 11:30 */
+    digitalWrite(blue, HIGH);
+    digitalWrite(white, LOW);
+    delay(1000);
+
+/*klokken 12:30 */
+
+
+
+/*klokken 15 */
+    
+
+    
 }
