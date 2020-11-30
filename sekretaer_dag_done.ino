@@ -19,7 +19,7 @@ void setup()
 
 void loop()
 {   
-    /* klokken 7 mangler blomster */
+    /* klokken 7 */
     {
         digitalWrite(green, HIGH);
       	digitalWrite(red, LOW);
