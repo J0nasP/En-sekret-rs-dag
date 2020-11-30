@@ -22,12 +22,21 @@ void loop()
     /* klokken 7 mangler blomster */
     {
         digitalWrite(green, HIGH);
-      	digitalWrite(red, LOW); 
+      	digitalWrite(red, LOW);
+        digitalWrite(yellow1, HIGH);
+      	delay(500);
+        digitalWrite(yellow2, HIGH);
+      	delay(500);
+        digitalWrite(yellow3, HIGH);
       	delay(1000);
+
 
     }
     /*klokken 8 */
     {
+        digitalWrite(yellow1, LOW);
+        digitalWrite(yellow2, LOW);
+        digitalWrite(yellow3, LOW);
         digitalWrite(white, HIGH);
       	delay(3500);
     }
